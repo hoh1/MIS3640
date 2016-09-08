@@ -50,7 +50,10 @@ minutes = (current//60) % 60
 hours = (current//60)//60 % 24
 days = current//60//60//24 % 365
 years = current//60//60//24//365
-print('Current time: %d years, %d days, %d hours, %d minutes and %d seconds from Epoch.' 
+print('Current time: %d years, %d days, %d hours, %d minutes and %f seconds from Epoch.' 
 %(years, days, hours, minutes, second))
+
+
+
 
 input()
