@@ -39,8 +39,8 @@ Grade1 = int(input())
 message = 'What is your second grade?'
 print(message)
 Grade2 = int(input())
-Change = ((Grade2-Grade1)/Grade1)*100
-message = 'Your grade has increased by %.1f %%' % Change
+change = ((Grade2-Grade1)/Grade1)*100
+message = 'Your grade has increased by %.1f %%' % change
 print(message)
 
 input()
