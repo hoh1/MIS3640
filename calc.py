@@ -1,16 +1,14 @@
+##In Class Activity 1
 #Exercise 2_1
 print((60*42)+42)
-
 #Exercise 2_2
 print(10/1.61)
-
 #Exercise 2_3_a
 print(((60*42)+42)/(10/1.61))
-
 #Exercise 2_3_b
 print((10/1.61)/(((60*42)+42)/3600))
 
-#In Class Acitivity 2
+##In Class Acitivity 2
 #Exercise 1_1
 r=5
 π=3.14159
@@ -42,5 +40,17 @@ Grade2 = int(input())
 change = ((Grade2-Grade1)/Grade1)*100
 message = 'Your grade has increased by %.1f %%' % change
 print(message)
+
+##In Class Acitivity 3
+#Exercise 3
+import time
+current = time.time()
+second = current % 60
+minutes = (current//60) % 60
+hours = (current//60)//60 % 24
+days = current//60//60//24 % 365
+years = current//60//60//24//365
+print('Current time: %d years, %d days, %d hours, %d minutes and %d seconds from Epoch.' 
+%(years, days, hours, minutes, second))
 
 input()
