@@ -53,5 +53,4 @@ years = current//60//60//24//365
 print('Current time: %d years, %d days, %d hours, %d minutes and %f seconds from Epoch.' 
 %(years, days, hours, minutes, second))
 
-
 input()
