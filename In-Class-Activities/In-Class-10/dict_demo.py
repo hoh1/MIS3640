@@ -13,6 +13,7 @@ print(len(grades))
 print('Jerry' in grades)
 print(90 in grades.values()) #in function is to see if '' exists inside the dictionary (returns TRUE/FALSE)
 
+
 def histogram(s):
     d = {}
     for c in s:
