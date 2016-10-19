@@ -26,7 +26,7 @@ def process_file(filename, skip_header):
                     
     return hist
 
-print(process_file('test_file.txt', skip_header=False))
+# print(process_file('test_file.txt', skip_header=False))
 
 
 def skip_gutenberg_header(fp):
@@ -75,7 +75,7 @@ def print_most_common(hist, num=10):
     hist: histogram (map from word to frequency)
     num: number of words to print
     """
-    t = most_common(hist)   #same as shown in testing from previous function
+    t = most_common(hist)   #same as shown in testing from previous function; list with the most common words;
     print('The most common words are:')
     for freq, word in t[:num]:
         print(word, '\t', freq)
