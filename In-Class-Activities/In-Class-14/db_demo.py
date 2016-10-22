@@ -1,5 +1,6 @@
 import dbm
 import random
+
 ROSTER = ("Beshansky",
           "Collins",
           "Fischer",
