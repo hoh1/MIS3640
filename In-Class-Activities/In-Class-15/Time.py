@@ -64,7 +64,6 @@ def add_time(t1, t2):
     if sum.minute >= 60:
         sum.minute -= 60
         sum.hour += 1
-
     return sum
 
 # Uncomment below for testing
@@ -112,7 +111,7 @@ def add_time2(t1, t2):
     t1, t2: Time
     returns: Time
     """
-    assert valid_time(t1) and valid_time(t2)
+    # assert valid_time(t1) and valid_time(t2)
     seconds = time_to_int(t1) + time_to_int(t2)
     return int_to_time(seconds)
 
@@ -184,5 +183,5 @@ def main():
     print_time(end_time)
 
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
