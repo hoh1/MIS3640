@@ -49,7 +49,7 @@ def main():
 
     personList.sort()
 
-    print()
+    print()    #space between
 
     for e in personList:
         print(e)
