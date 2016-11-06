@@ -23,4 +23,4 @@ class BabsonPerson(Person):
 # p1 = BabsonPerson('Zhi')
 # p2 = BabsonPerson('Brian Collins')
 # p3 = BabsonPerson('Kathy Martinez')
-# p4 = Peson('Mark')
+# p4 = Person('Mark')

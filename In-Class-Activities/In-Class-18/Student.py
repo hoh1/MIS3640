@@ -10,13 +10,13 @@ class UG(Student):
 
     def __init__(self, name, classYear):
         BabsonPerson.__init__(self, name)
-        self.year = classYear
+        self.year = classYear    #for __init__, everything is the same, but self.year is updated;
 
     def getClass(self):
         return self.year
 
-    # def speak(self, utterance):
-    #     return BabsonPerson.speak(self, " Dude, " + utterance)
+    def speak(self, utterance):
+        return BabsonPerson.speak(self, " Dude, " + utterance)  #adds "Dude," infront of utterance if self is UG class;
 
 
 class Grad(Student):
@@ -24,7 +24,7 @@ class Grad(Student):
 
 
 def isStudent(obj):
-    return isinstance(obj, Student)
+    return isinstance(obj, Student)     #check if 'obj' or self is part of 'student' class;
 
 
 def main():
@@ -45,10 +45,10 @@ def main():
 
     print(s4.speak('I am not sure why I am here.'))
 
-    # print(isStudent(s1))
+    print(isStudent(s1))
 
-    # p1 = Person("Hillary Clinton")
-    # print(isStudent(p1))
+    p1 = Person("Hillary Clinton")
+    print(isStudent(p1))
 
 if __name__ == '__main__':
     main()

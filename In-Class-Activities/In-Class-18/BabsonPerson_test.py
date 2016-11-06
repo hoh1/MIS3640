@@ -29,7 +29,7 @@ def main():
 
     for everyone in personList:
         print(everyone)
-        # print(everyone.speak('how are you?'))
-
+        # print(everyone.speak('how are you?'))   #Donald Trump and Steve Wozniak are not in Babson Person Class, thus
+                                                  #lack 'speak' attribute, hence can't speak;
 if __name__ == '__main__':
     main()

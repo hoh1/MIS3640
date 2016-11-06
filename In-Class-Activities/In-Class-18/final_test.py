@@ -24,9 +24,13 @@ def main():
     for everyone in studentList:
         print(everyone)
 
+    print()
+
     for everyone in BabsonList:
         print(everyone)
         print(everyone.speak('Happy holidays!'))
+
+    print()
 
     for everyone in allList:
         print(everyone)
